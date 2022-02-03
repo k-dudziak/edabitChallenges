@@ -8,6 +8,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        SevenBoom sevenBoomObject = new SevenBoom();
+
+        int[] boomArray = {123,244,312,10,63232,6};
+
+        sevenBoomObject.sevenBoom(boomArray);
+
     }
+
 }
