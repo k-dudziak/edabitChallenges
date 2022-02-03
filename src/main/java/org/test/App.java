@@ -23,6 +23,9 @@ public class App
 
         //Find the discount challenge
         System.out.println("Price after discount: "+FindTheDiscount.discount(100,10));
+
+        //Pronic numbers
+        System.out.println("Pronic number: "+PronicNumber.isHeteromecic(1260));
     }
 
 }
