@@ -11,7 +11,6 @@ public class SevenBoom {
                 break;
             }
         }
-        System.out.println(message);
         return message;
     }
 }
