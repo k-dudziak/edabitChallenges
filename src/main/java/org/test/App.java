@@ -20,6 +20,9 @@ public class App
         int b = 3;
         int area = triangleAreaObject.triArea(a,b);
         System.out.println("Triangle area: "+area);
+
+        //Find the discount challenge
+        System.out.println("Price after discount: "+FindTheDiscount.discount(100,10));
     }
 
 }
