@@ -29,6 +29,10 @@ public class App
 
         //Complete the word challenge
         System.out.println("CompleteTheWord boolean value: "+CompleteTheWord.canComplete("dua","diuna"));
+
+        //How much is true challenge
+        boolean[] trueArray = {false, true, true, false};
+        System.out.println("HowMuchIsTrue true count: "+HowMuchIsTrue.countTrue(trueArray));
     }
 
 }
