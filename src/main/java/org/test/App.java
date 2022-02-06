@@ -35,7 +35,7 @@ public class App
         System.out.println("HowMuchIsTrue true count: "+HowMuchIsTrue.countTrue(trueArray));
 
         //Check if String Ending Matches Second String challenge
-        System.out.println("String ends with second string check result: "+StringEndingMatch.checkEnding("testowanie","nie"));
+        System.out.println("String ends with second string check result: "+StringEndingMatch.checkEnding("testowanie","owanie"));
     }
 
 }
