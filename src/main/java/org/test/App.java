@@ -33,6 +33,9 @@ public class App
         //How much is true challenge
         boolean[] trueArray = {false, true, true, false};
         System.out.println("HowMuchIsTrue true count: "+HowMuchIsTrue.countTrue(trueArray));
+
+        //Check if String Ending Matches Second String challenge
+        System.out.println("String ends with second string check result: "+StringEndingMatch.checkEnding("testowanie","nie"));
     }
 
 }
