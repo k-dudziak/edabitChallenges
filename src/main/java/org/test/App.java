@@ -28,6 +28,7 @@ public class App
         System.out.println("Pronic number: "+PronicNumber.isHeteromecic(1260));
 
         //Complete the word challenge
+        System.out.println("CompleteTheWord boolean value: "+CompleteTheWord.canComplete("dua","diuna"));
     }
 
 }
